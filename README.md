@@ -3,14 +3,12 @@
 A Streamlit-powered chatbot for querying and analyzing solar farm performance data using RAG and AI agents.  
 It supports natural language questions about energy output, performance ratio, weather metrics, and more.
 
-<img width="1530" height="716" alt="image" src="https://github.com/user-attachments/assets/18a2c66e-d877-4ac1-b5a8-1bd9c72585bf" />
-<img width="1484" height="703" alt="image" src="https://github.com/user-attachments/assets/0fe34293-f3a5-4cb1-a972-111054e3543f" />
-<img width="1444" height="673" alt="image" src="https://github.com/user-attachments/assets/c67f38f0-3526-4fe4-9368-76b2a2736b67" />
-
-
-
+<img width="500" height="716" alt="image" src="https://github.com/user-attachments/assets/18a2c66e-d877-4ac1-b5a8-1bd9c72585bf" /> <img width="500" height="703" alt="image" src="https://github.com/user-attachments/assets/0fe34293-f3a5-4cb1-a972-111054e3543f" />
+<img width="500" height="673" alt="image" src="https://github.com/user-attachments/assets/c67f38f0-3526-4fe4-9368-76b2a2736b67" /> <img width="500" height="777" alt="image" src="https://github.com/user-attachments/assets/2f21cc30-1d8a-4214-8b84-99c766144491" />
 
 ## Directory Structure
+```
+
 solar_chatbot/
 │
 ├── app.py                      # Main Streamlit app and UI logic
@@ -22,7 +20,7 @@ solar_chatbot/
 ├── .env                        # Environment variables (optional)
 ├── 5-Site_DG-PV1-DB-DG-M1A.csv # Raw solar farm data (not included)
 └── README.md                   # This documentation
-
+```
 ## Data Source
 [Desert Knowledge Australia Solar Centre](https://dkasolarcentre.com.au/download?location=yulara)
 Desert Gardens (Site 1) - 1,058.4 kW poly-Si fixed-tilt system 
